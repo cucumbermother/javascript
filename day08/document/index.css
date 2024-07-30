@@ -1,0 +1,25 @@
+.box {
+
+display: flex;
+flex-direction: row;
+gap: 20px;
+
+
+}
+
+
+
+.button{
+    width: 170px;
+    height: 50px;
+    background-color: #f7f7fa;
+    padding: 1px 6px 1px 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: #373855;
+    border-radius: 10px
+    
+}
