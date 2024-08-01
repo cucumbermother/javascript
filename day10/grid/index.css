@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  /*  fraction: 파편  (동등하게 넣어줌) repeat(행,크기)*/
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+}
